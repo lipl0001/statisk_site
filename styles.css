@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "futura-pt", sans-serif;
-  background-color: #c7c4bc;
+  background-color: #eae8e4;
 }
 
 img {
@@ -15,7 +15,7 @@ img {
 }
 
 main {
-  margin: 5rem;
+  margin: 10rem;
 }
 
 .season {
@@ -26,7 +26,7 @@ main {
 }
 .season:hover {
   cursor: pointer;
-  background-color: rgb(175, 172, 163);
+  background-color: #dfd8d1;
 }
 
 .kategorih1 {
@@ -50,4 +50,12 @@ a:visited {
 
 .produktlistebeskrivelse {
   color: #6a6969;
+}
+
+h1 {
+  font-weight: lighter;
+}
+
+.produktlisteh1 {
+  text-align: center;
 }
