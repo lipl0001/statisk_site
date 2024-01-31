@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "futura-pt", sans-serif;
+  background-color: #c7c4bc;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+main {
+  margin: 5rem;
+}
+
+.season {
+  /* Grundlæggende stilarter for årstiderne */
+  padding: 10px;
+  margin: 5px;
+  border-bottom: 1px solid black;
+}
+.season:hover {
+  cursor: pointer;
+  background-color: rgb(175, 172, 163);
+}
+
+.kategorih1 {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.linkstyle,
+a:visited {
+  color: black; /* eller den farve du foretrækker */
+  text-decoration: none; /* fjerner understregningen */
+}
+
+.produkting {
+  width: 100%;
+}
+
+.produktlisteoverskrift {
+  font-weight: bold;
+}
+
+.produktlistebeskrivelse {
+  color: #6a6969;
+}
